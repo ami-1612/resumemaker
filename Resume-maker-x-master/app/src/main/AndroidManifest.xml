@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.raw.resumemaker">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Resumemaker">
+        <activity
+            android:name=".t1"
+            android:exported="false" />
+        <activity
+            android:name=".template"
+            android:exported="false"
+            android:label="Template" />
+        <activity
+            android:name=".refrence"
+            android:exported="false"
+            android:label="Refrence" />
+        <activity
+            android:name=".objective"
+            android:exported="false"
+            android:label="Objective" />
+        <activity
+            android:name=".workprofile"
+            android:exported="false"
+            android:label="Work Profile" />
+        <activity
+            android:name=".skill"
+            android:exported="false"
+            android:label="Skill" />
+        <activity
+            android:name=".experiencce"
+            android:exported="false"
+            android:label="Experience" />
+        <activity
+            android:name=".eduction"
+            android:exported="false"
+            android:label="Eduction" />
+        <activity
+            android:name=".personal"
+            android:exported="false"
+            android:label="Personal Details" />
+        <activity
+            android:name=".homeactivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

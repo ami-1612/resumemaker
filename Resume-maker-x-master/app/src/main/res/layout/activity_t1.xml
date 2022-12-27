@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".t1">
+
+   <LinearLayout
+       android:layout_width="0dp"
+       android:layout_height="match_parent"
+       android:layout_weight="1"
+       android:orientation="vertical"
+       android:background="@drawable/slide">
+
+      <de.hdodenhof.circleimageview.CircleImageView
+          xmlns:app="http://schemas.android.com/apk/res-auto"
+          android:id="@+id/profile_image"
+          android:layout_width="96dp"
+          android:layout_height="96dp"
+          android:layout_gravity="center"
+          android:layout_marginTop="5dp"
+          android:src="@drawable/person"
+          app:civ_border_width="2dp"
+          app:civ_border_color="@color/bg"/>
+
+      <Space
+          android:layout_width="match_parent"
+          android:layout_height="25dp"/>
+
+      <View
+          android:layout_width="match_parent"
+          android:layout_height="2dp"
+          android:background="@color/white"/>
+
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="PROFILE"
+          android:textSize="14dp"
+          android:textStyle="bold"
+          android:gravity="center"
+          android:textColor="@color/white" />
+
+      <View
+          android:layout_width="match_parent"
+          android:layout_height="2dp"
+          android:background="@color/white"/>
+
+      <TextView
+          android:id="@+id/tvobjective"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:padding="2dp"
+          android:text=""
+          android:textColor="@color/white"
+          android:textSize="10dp" />
+
+      <TextView
+          android:id="@+id/tvgithub"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:padding="2dp"
+          android:text=""
+          android:textColor="@color/white"
+          android:textSize="10dp" />
+
+      <TextView
+          android:id="@+id/tvlinkdin"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:padding="2dp"
+          android:text=""
+          android:textColor="@color/white"
+          android:textSize="10dp" />
+
+      <Space
+          android:layout_width="match_parent"
+          android:layout_height="20dp"/>
+
+      <View
+          android:layout_width="match_parent"
+          android:layout_height="2dp"
+          android:background="@color/white"/>
+
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="CONTACTS"
+          android:textSize="14dp"
+          android:textStyle="bold"
+          android:gravity="center"
+          android:textColor="@color/white" />
+
+      <View
+          android:layout_width="match_parent"
+          android:layout_height="2dp"
+          android:background="@color/white"/>
+
+      <TextView
+          android:id="@+id/tvphon"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:padding="2dp"
+          android:text=""
+          android:textColor="@color/white"
+          android:textSize="10dp" />
+
+      <TextView
+          android:id="@+id/tvaddress"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:padding="2dp"
+          android:text=""
+          android:textColor="@color/white"
+          android:textSize="10dp" />
+
+      <TextView
+          android:id="@+id/tvemail"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:padding="2dp"
+          android:text=""
+          android:textColor="@color/white"
+          android:textSize="10dp" />
+
+      <Space
+          android:layout_width="match_parent"
+          android:layout_height="20dp"/>
+
+      <View
+          android:layout_width="match_parent"
+          android:layout_height="2dp"
+          android:background="@color/white"/>
+
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="REFRENCE"
+          android:textSize="14dp"
+          android:textStyle="bold"
+          android:gravity="center"
+          android:textColor="@color/white" />
+
+      <View
+          android:layout_width="match_parent"
+          android:layout_height="2dp"
+          android:background="@color/white"/>
+
+      <TextView
+          android:id="@+id/tvcompanyname"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:padding="2dp"
+          android:text=""
+          android:textColor="@color/white"
+          android:textSize="10dp" />
+
+      <TextView
+          android:id="@+id/tvcompanylink"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:padding="2dp"
+          android:text=""
+          android:textColor="@color/white"
+          android:textSize="10dp" />
+
+
+   </LinearLayout>
+   <LinearLayout
+       android:layout_width="0dp"
+       android:layout_height="match_parent"
+       android:orientation="vertical"
+       android:layout_weight="2">
+
+      <TextView
+          android:id="@+id/tvname"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Meet Bhuva"
+          android:textSize="28dp"
+          android:textStyle="bold"
+          android:textColor="@color/txt"
+          android:layout_margin="10dp"/>
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Android Devloper"
+          android:textSize="14dp"
+          android:textStyle="bold"
+          android:textColor="#726588"
+          android:layout_marginRight="10dp"
+          android:layout_marginLeft="10dp"/>
+
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="EDUCTION"
+          android:textSize="26dp"
+          android:textStyle="bold"
+          android:textColor="@color/txt"
+          android:layout_marginTop="30dp"
+          android:layout_marginRight="10dp"
+          android:layout_marginLeft="10dp"/>
+
+      <View
+          android:layout_width="100dp"
+          android:layout_height="2dp"
+          android:background="@color/txt"
+          android:layout_marginRight="10dp"
+          android:layout_marginLeft="10dp"/>
+
+      <TextView
+          android:id="@+id/tvschool"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:padding="2dp"
+          android:text=""
+          android:textColor="@color/title_bar"
+          android:textStyle="bold"
+          android:layout_marginRight="10dp"
+          android:layout_marginLeft="10dp"
+          android:textSize="14dp" />
+
+      <TextView
+          android:id="@+id/tvcourse"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="10dp"
+          android:layout_marginTop="3dp"
+          android:layout_marginRight="10dp"
+          android:padding="2dp"
+          android:text=""
+          android:textColor="@color/title_bar"
+          android:textSize="12dp" />
+
+      <TextView
+          android:id="@+id/tvgrade"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="10dp"
+          android:layout_marginTop="3dp"
+          android:layout_marginRight="10dp"
+          android:padding="2dp"
+          android:text=""
+          android:textColor="@color/title_bar"
+          android:textSize="12dp" />
+
+      <TextView
+          android:id="@+id/tvyear"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="10dp"
+          android:layout_marginTop="3dp"
+          android:layout_marginRight="10dp"
+          android:padding="2dp"
+          android:text=""
+          android:textColor="@color/title_bar"
+          android:textSize="12dp" />
+
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="EXPERIENCE"
+          android:textSize="26dp"
+          android:textStyle="bold"
+          android:textColor="@color/txt"
+          android:layout_marginTop="30dp"
+          android:layout_marginRight="10dp"
+          android:layout_marginLeft="10dp"/>
+
+      <View
+          android:layout_width="100dp"
+          android:layout_height="2dp"
+          android:background="@color/txt"
+          android:layout_marginRight="10dp"
+          android:layout_marginLeft="10dp"/>
+
+      <TextView
+          android:id="@+id/tvcompany"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="10dp"
+          android:layout_marginTop="3dp"
+          android:layout_marginRight="10dp"
+          android:padding="2dp"
+          android:text=""
+          android:textColor="@color/title_bar"
+          android:textSize="14dp"
+          android:textStyle="bold" />
+
+      <TextView
+          android:id="@+id/tvjob"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="10dp"
+          android:layout_marginTop="3dp"
+          android:layout_marginRight="10dp"
+          android:padding="2dp"
+          android:text=""
+          android:textColor="@color/title_bar"
+          android:textSize="12dp" />
+
+      <TextView
+          android:id="@+id/tvdescription"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="10dp"
+          android:layout_marginTop="3dp"
+          android:layout_marginRight="10dp"
+          android:padding="2dp"
+          android:text=""
+          android:textColor="@color/title_bar"
+          android:textSize="12dp" />
+
+      <TextView
+          android:id="@+id/tvjobyear"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="10dp"
+          android:layout_marginTop="3dp"
+          android:layout_marginRight="10dp"
+          android:padding="2dp"
+          android:text=""
+          android:textColor="@color/title_bar"
+          android:textSize="12dp" />
+
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="SKILLS"
+          android:textSize="26dp"
+          android:textStyle="bold"
+          android:textColor="@color/txt"
+          android:layout_marginTop="30dp"
+          android:layout_marginRight="10dp"
+          android:layout_marginLeft="10dp"/>
+
+      <View
+          android:layout_width="100dp"
+          android:layout_height="2dp"
+          android:background="@color/txt"
+          android:layout_marginRight="10dp"
+          android:layout_marginLeft="10dp"/>
+
+      <TextView
+          android:id="@+id/tvskill1"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="10dp"
+          android:layout_marginTop="3dp"
+          android:layout_marginRight="10dp"
+          android:padding="2dp"
+          android:text=""
+          android:textColor="@color/title_bar"
+          android:textSize="12dp" />
+
+      <TextView
+          android:id="@+id/tvskill2"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="10dp"
+          android:layout_marginTop="3dp"
+          android:layout_marginRight="10dp"
+          android:padding="2dp"
+          android:text=""
+          android:textColor="@color/title_bar"
+          android:textSize="12dp" />
+
+      <TextView
+          android:id="@+id/tvskill3"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="10dp"
+          android:layout_marginTop="3dp"
+          android:layout_marginRight="10dp"
+          android:padding="2dp"
+          android:text=""
+          android:textColor="@color/title_bar"
+          android:textSize="12dp" />
+
+      <TextView
+          android:id="@+id/tvskill4"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="10dp"
+          android:layout_marginTop="3dp"
+          android:layout_marginRight="10dp"
+          android:padding="2dp"
+          android:text=""
+          android:textColor="@color/title_bar"
+          android:textSize="12dp" />
+
+   </LinearLayout>
+
+</LinearLayout>
